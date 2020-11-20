@@ -60,6 +60,6 @@ class Machine:
         emailController.sendEmail(self.emailList)
 
 
-email = Emails.Email("EMAIL_USER", "EMAIL_PASSW")
+email = Emails.Email("EMAIL_USER", "EMAIL_PASSW")  # Change for your needs
 machine = Machine()
 machine.main()
